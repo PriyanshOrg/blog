@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 const header = (
   <header>
     <div className="text-center bg-gray-800 p-8 my-6 rounded-md shadow-lg">
-    <Link href="../">
+    <Link href="/blog">
       <Image
         alt="logo"
-        src="/logo.png"
+        src="/blog/logo.png"
         width={50}
         height={50}
         className="mx-auto"
@@ -32,7 +32,7 @@ const header = (
 
 const footer = (
   <footer className="border-t border-gray-600 mt-12 py-6 text-center text-gray-500">
-    <Link href="/">
+    <Link href="https://github.com/PriyanshOrg" target="_blank">
       <h3 className="hover:text-purple-400">Priyansh Development</h3>
     </Link>
   </footer>
