@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const header = (
   <header>
     <div className="text-center bg-gray-800 p-8 my-6 rounded-md shadow-lg">
-    <Link href="/blog">
+    <Link href="https://priyansh.js.org/blog">
       <Image
         alt="logo"
         src="/blog/logo.png"
